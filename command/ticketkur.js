@@ -13,8 +13,8 @@ module.exports = {
 					.setPlaceholder('Oluşturulacak bilet türünü seçin.')
 					.addOptions([
 						{
-							label: '💸 | Ortak',
-							description: 'Bir ortaklık bileti açın.',
+							label: '💸 | Payment',
+							description: 'Satın alımlar amacı ile bir bilet oluşturun!',
 							value: 'ortaklık',
 						},
 						{

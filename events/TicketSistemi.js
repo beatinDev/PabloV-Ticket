@@ -111,11 +111,11 @@ module.exports = {
                     ]
                 }).then((c)=>{
                     const embed = new MessageEmbed()
-                    .setTitle('Ortaklık yapmak için bilet')
-                    .setDescription('Lütfen başvurunuzu detaylandırın, böylece bir sunucu moderatörü sorumluluğu üstlenecek.')
-                    .setFooter('TheTomenTosaDev. Ticket')
+                    .setTitle('💸 | Payment bileti.')
+                    .setDescription('Selamlar, <#1016001324778799125> ve <#1013877435458129981> adlı kanallardan detaylıca bilgi öğrenip, ödemenizi buradan <@372787088778723328> ile iletişime geçerek işlemlere başlayabilirsiniz.')
+                    .setFooter('PabloV | PC Optimizer')
                     c.send({embeds: [embed], content: `${roleStaff} | ${interaction.user}`, components: [row]})
-                    interaction.reply({content: `<:art:970266097913827348> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
+                    interaction.reply({content: `💸 | ***Biletiniz başarı ile açıldı!*** <#${c.id}>`, ephemeral: true})
                 })
                 
             
