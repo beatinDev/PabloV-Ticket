@@ -7,14 +7,14 @@ module.exports = {
 
         var KARISIKDURUM = 1
         setInterval(async () => {
-            status =  [`Ticket Bot`, `TheTomenTosa Dev.`, `<3`]
+            status =  [`PabloV`, `PC Optimizer`, `discord.gg/PabloV`]
             KARISIKDURUM = (KARISIKDURUM + 2) % (status.length);
             client.user.setPresence({
                 activities: [{
                     name: `${status[KARISIKDURUM]}`,
-                    type: "COMPETING",
+                    type: "PLAYING",
                   }],
-                  status: "idle"})
+                  status: "ONLINE"})
         }, 5000);
     }
 }

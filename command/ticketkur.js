@@ -33,12 +33,12 @@ module.exports = {
         message.channel.send({
             embeds: [{
                 title: 'Bilet Açın',
-                description: '**__Bir Bilet Nasıl Açılır :__**\nLütfen açmak istediğiniz bilet türünü seçin.',
+                description: '**__Bir Bilet Nasıl Açılır :__**\nLütfen açmak istediğiniz bi   \     let türünü seçin.',
               image: {
               url: "https://i.hizliresim.com/lkiq0ps.png"
               },  
-              color: "RED",
-                footer: {text: 'TheTomenTosaDev. Ticket'}
+              color: "RANDOM",
+                footer: {text: 'PabloV | PC Optimizer'}
             }],
             components: [row]
         })

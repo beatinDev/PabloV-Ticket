@@ -85,6 +85,7 @@ module.exports = {
                 }).then((c)=>{
                     const şikayet = new MessageEmbed()
                     .setTitle('❓ | Question bileti.')
+                    .setColor('RANDOM')
                     .setDescription('Selamlar, öncelikle <#1013877435458129981> kanalını dikkatlice okuyunuz, sorunuz kanalda bulunmuyor ise dilediğiniz gibi soru sorabilirsiniz.')
                     .setFooter('PabloV | PC Optimizer')
                     c.send({embeds: [şikayet], content: `${roleStaff} | ${interaction.user}`, components: [row]})
@@ -112,6 +113,7 @@ module.exports = {
                 }).then((c)=>{
                     const embed = new MessageEmbed()
                     .setTitle('💸 | Payment bileti.')
+                    .setColor('RANDOM')
                     .setDescription('Selamlar, <#1016001324778799125> ve <#1013877435458129981> adlı kanallardan detaylıca bilgi öğrenip, ödemenizi buradan <@372787088778723328> ile iletişime geçerek işlemlere başlayabilirsiniz.')
                     .setFooter('PabloV | PC Optimizer')
                     c.send({embeds: [embed], content: `${roleStaff} | ${interaction.user}`, components: [row]})
