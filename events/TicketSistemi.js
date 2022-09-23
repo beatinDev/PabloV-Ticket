@@ -12,8 +12,8 @@ module.exports = {
                     .setPlaceholder('Bileti silmek için seçin!')
 					.addOptions([
 						{
-							label: '🔥 Silinen bilet',
-							description: 'Kanalı sil',
+							label: '🗑️ | Delete',
+							description: 'Bileti silmek adına kullanabilirsiniz.',
 							value: 'delete',
 						}
 					])

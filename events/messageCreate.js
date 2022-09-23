@@ -20,7 +20,7 @@ module.exports = {
                 command.execute(client, message, args);
                 
                 } catch (error) {
-                     message.channel.send('**Üzgünüm ama kod yürütülürken bir hata oluştu** thetomentosa#6442 ile iletişime geçin')
+                     message.channel.send('**Üzgünüm! Bir sorun oluştu, <@734063118589886516> ile iletişime geçiniz.')
                 };
             }
         }

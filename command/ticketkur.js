@@ -10,7 +10,7 @@ module.exports = {
 			.addComponents(
 				new MessageSelectMenu()
 					.setCustomId('select')
-					.setPlaceholder('Oluşturulacak bilet türünü seçin.')
+					.setPlaceholder('Lütfen talebinizin türünü seçiniz.')
 					.addOptions([
 						{
 							label: '💸 | Payment',
@@ -34,7 +34,10 @@ module.exports = {
             embeds: [{
                 title: 'Bilet Açın',
                 description: '**__Bir Bilet Nasıl Açılır :__**\nLütfen açmak istediğiniz bilet türünü seçin.',
-                color: "RED",
+              image: {
+              url: "https://i.hizliresim.com/lkiq0ps.png"
+              },  
+              color: "RED",
                 footer: {text: 'TheTomenTosaDev. Ticket'}
             }],
             components: [row]
