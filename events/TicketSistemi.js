@@ -34,7 +34,7 @@ module.exports = {
         }
 
         if (interaction.customId == "select") {
-            if (DejaUnChannel) return interaction.reply({content: 'Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
+            if (DejaUnChannel) return interaction.reply({content: '\<:admin:997613453202169996> Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
             if (interaction.values[0] == "yetkili") {
                 interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
                     type: 'GUILD_TEXT',

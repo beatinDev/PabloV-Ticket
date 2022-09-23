@@ -32,8 +32,8 @@ module.exports = {
 
         message.channel.send({
             embeds: [{
-                title: 'Bilet Açın',
-                description: '**__Bir Bilet Nasıl Açılır :__**\nLütfen açmak istediğiniz bi   \     let türünü seçin.',
+                title: 'PabloV Ticket - Destek Sistemi',
+                description: 'Lütfen talebiniz ile eşleşen ***başlığı*** seçerek biletinizi oluşturunuz.  \<:beatiNkalp:1016073458364465243>',
               image: {
               url: "https://i.hizliresim.com/lkiq0ps.png"
               },  
