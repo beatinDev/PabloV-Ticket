@@ -18,14 +18,14 @@ module.exports = {
 							value: 'ortaklık',
 						},
 						{
-							label: '😠 | Şikayet',
-							description: 'Şikayet bileti aç ',
+							label: '❓ | Question',
+							description: 'Herhangi bir sorunuz olduğunda buradan bir bilet oluşturun!',
 							value: 'şikayet',
 						},
                         {
-							label: '🆘 | Yetkili Alım',
+							label: '❌ | Seçim Sıfırlama',
 							description: 'Yetkili alım başvurusunda bulunmak için bir bilet açın',
-							value: 'yetkili',
+							value: 'iptal',
 						},
 					]),
 			);

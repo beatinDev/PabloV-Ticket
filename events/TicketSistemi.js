@@ -34,7 +34,7 @@ module.exports = {
         }
 
         if (interaction.customId == "select") {
-            if (DejaUnChannel) return interaction.reply({content: '<:arp:970266108701601833> Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
+            if (DejaUnChannel) return interaction.reply({content: 'Sunucuda zaten açık bir biletiniz var.', ephemeral: true})
             if (interaction.values[0] == "yetkili") {
                 interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
                     type: 'GUILD_TEXT',
@@ -84,11 +84,11 @@ module.exports = {
                     ]
                 }).then((c)=>{
                     const şikayet = new MessageEmbed()
-                    .setTitle('Şikayet için bilet')
-                    .setDescription('Lütfen şikayetinizi detaylandırın ki bir sunucu moderatörü gelip ilgilensin.')
-                    .setFooter('TheTomenTosaDev. Ticket')
+                    .setTitle('❓ | Question bileti.')
+                    .setDescription('Selamlar, öncelikle <#1013877435458129981> kanalını dikkatlice okuyunuz, sorunuz kanalda bulunmuyor ise dilediğiniz gibi soru sorabilirsiniz.')
+                    .setFooter('PabloV | PC Optimizer')
                     c.send({embeds: [şikayet], content: `${roleStaff} | ${interaction.user}`, components: [row]})
-                    interaction.reply({content: `<:art:970266097913827348> Biletiniz başarıyla açıldı. <#${c.id}>`, ephemeral: true})
+                    interaction.reply({content: `❓ | ***Biletiniz başarı ile açıldı!*** <#${c.id}>`, ephemeral: true})
                 })
             } else if (interaction.values[0] == "ortaklık") {
                 interaction.guild.channels.create(`ticket-${interaction.user.username}`, {

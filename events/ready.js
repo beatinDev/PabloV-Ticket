@@ -12,9 +12,9 @@ module.exports = {
             client.user.setPresence({
                 activities: [{
                     name: `${status[KARISIKDURUM]}`,
-                    type: "PLAYING",
+                    type: "COMPETING",
                   }],
-                  status: "online"})
+                  status: "idle"})
         }, 5000);
     }
 }
